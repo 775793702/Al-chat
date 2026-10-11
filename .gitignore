@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment —— 绝不提交 API Key
+.env
+
+# 模型权重（约 3.1GB：Qwen 基座模型 + LoRA checkpoint）
+models/
+
+# 数据集（约 3.0GB：LCCC-base 等）
+data/
+
+# 日志
+logs/
+*.log
+
+# 对话记录（可能含隐私内容）
+conversation.json
+
+# 课程报告与模板（含个人信息，不公开）
+期末设计报告*.docx
+template_*.docx
+AI报告生成提示词.md
+
+# 误产生的文件（pip install 命令敲错产生的）
+=0.43.0
+=2.8
+*.bak
+temp_*.txt
+
+# OS
+.DS_Store
+Thumbs.db

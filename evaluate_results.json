@@ -1,0 +1,17 @@
+{
+  "ppl": {
+    "mean": 64.4,
+    "median": 55.2,
+    "min": 18.3,
+    "max": 281.3,
+    "count": 1000
+  },
+  "bleu": {
+    "bleu1": 14.7,
+    "bleu2": 4.0,
+    "bleu3": 1.1,
+    "bleu4": 0.7,
+    "count": 200,
+    "avg_gen_time_ms": 1127
+  }
+}
